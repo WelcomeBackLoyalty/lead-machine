@@ -83,3 +83,22 @@ Requires `EXA_API_KEY` in `.env` (see `.env.example`). Optional `PORT` (defaults
 - **Count clamping** — Job count parameter clamped to 10–1000 range
 - **Direct query passthrough** — User's search request is sent directly to Exa without modification
 - **`useJobs` hook** — Single React hook managing all job state via `useReducer`, API calls, and polling intervals
+
+<!-- BEGIN KNOWLEDGE-BASE REFERENCES — DO NOT EDIT MANUALLY -->
+
+## Knowledge Base Context
+
+When you need context about this service, the ecosystem, or cross-cutting architecture,
+read from the sibling `knowledge-base/` repo:
+
+- `../knowledge-base/services/lead-machine.md` — this service's profile (start here)
+- `../knowledge-base/onboarding/system-overview.md` — ecosystem overview
+- `../knowledge-base/architecture/` — cross-cutting architecture docs
+- `../knowledge-base/specs/` — feature specs and PRDs
+- `../knowledge-base/decisions/` — architecture decision records
+- `../knowledge-base/runbooks/` — operational runbooks
+
+The service profile contains wiki-links (`[[doc-name]]`) to related docs — resolve them
+by looking for matching filenames in the directories above.
+
+<!-- END KNOWLEDGE-BASE REFERENCES -->
