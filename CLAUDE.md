@@ -2,6 +2,16 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Repo role
+
+Standalone general-purpose lead-generation tool using the Exa Websets API. Express + React/ShadCN, in-memory job store, no database. Independent from the main WelcomeBack stack.
+
+## Where things live (cross-repo map)
+
+- **Cross-repo index**: `../knowledge-base/infra/REPOS.md`
+- **IaC**: standalone — no AWS IaC
+- **This service's profile**: `../knowledge-base/services/lead-machine.md`
+
 ## Project Overview
 
 General-purpose lead generation tool. Express/TypeScript backend with React/ShadCN frontend. Uses the Exa API (Websets + Enrichments) to find structured contact leads for any type of search query. Users describe what leads they want in natural language, and the tool returns structured results (contact name, title, email, phone, LinkedIn, company, website, etc.). Jobs are async with frontend polling; results stored in-memory and exportable as CSV.
