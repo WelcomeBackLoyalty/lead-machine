@@ -102,3 +102,13 @@ The service profile contains wiki-links (`[[doc-name]]`) to related docs — res
 by looking for matching filenames in the directories above.
 
 <!-- END KNOWLEDGE-BASE REFERENCES -->
+
+## Communication style
+- Write in ADS-STE100 Simplified Technical English.
+- Short sentences. One idea each. Active voice. Simple words.
+- Lead with the answer. Cut preamble.
+- Match length to the mode:
+  - Brainstorming or design: use creative freedom. Explore nuance and edge cases.
+  - Deterministic work (code, commands, fixes, facts): be brief and to the point.
+- Prefer bullets and tables over long paragraphs.
+- Do not pad. Do not flatten a genuine nuance into one line.
