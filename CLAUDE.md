@@ -2,6 +2,16 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Communication style
+
+- Write in ADS-STE100 Simplified Technical English.
+- Follow Zinsser's four principles of quality writing: simplicity, brevity, clarity, humanity
+- Match length to the mode:
+  - Brainstorming or design: use creative freedom. Explore nuance and edge cases.
+  - Deterministic work (code, commands, fixes, facts): be brief and to the point.
+- Prefer bullets and tables over long paragraphs.
+- Do not pad. Do not flatten a genuine nuance into one line.
+
 ## Project Overview
 
 General-purpose lead generation tool. Express/TypeScript backend with React/ShadCN frontend. Uses the Exa API (Websets + Enrichments) to find structured contact leads for any type of search query. Users describe what leads they want in natural language, and the tool returns structured results (contact name, title, email, phone, LinkedIn, company, website, etc.). Jobs are async with frontend polling; results stored in-memory and exportable as CSV.
